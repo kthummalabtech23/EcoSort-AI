@@ -1,0 +1,20 @@
+# EcoSort evaluation labels - REPLACE these sample rows with your own photos (put the files in evaluation/eval_data/images/).
+# image       : file name inside eval_data/images
+# items       : names of every item you can see, separated by |
+# categories  : correct category of each item (same order): wet | dry | domestic_hazardous | e_waste | sanitary
+# hazards     : OPTIONAL, 1/0 per item = could injure or harm a waste worker (default: 1 for domestic_hazardous and e_waste)
+# batch       : OPTIONAL, dry or wet - only for collection-point-audit photos
+# answer      : OPTIONAL, Yes | No | Not sure - simulated reply to clarifying questions (default Not sure)
+image,items,categories,hazards,batch,answer
+img_001.jpg,greasy pizza box|AA battery,wet|domestic_hazardous,0|1,,Yes
+img_002.jpg,banana peel|tea bags,wet|wet,0|0,,Not sure
+img_003.jpg,chips packet|broken glass,dry|dry,0|1,,Not sure
+img_004.jpg,PET bottle|newspaper|aluminium can,dry|dry|dry,0|0|0,,Not sure
+img_005.jpg,mobile charger|earphones,e_waste|e_waste,0|0,,Not sure
+img_006.jpg,CFL bulb,domestic_hazardous,1,,Not sure
+img_007.jpg,used syringe|medicine strip,domestic_hazardous|domestic_hazardous,1|1,,Not sure
+img_008.jpg,sanitary pad|diaper,sanitary|sanitary,0|0,,Not sure
+img_009.jpg,old t-shirt|cardboard box,dry|dry,0|0,,Not sure
+img_010.jpg,vegetable scraps|eggshell|PET bottle,wet|wet|dry,0|0|0,,Not sure
+img_011.jpg,glass jar|steel tin|plastic container,dry|dry|dry,0|0|0,dry,Not sure
+img_012.jpg,paper cup|banana peel|plastic wrapper,dry|wet|dry,0|0|0,dry,Not sure

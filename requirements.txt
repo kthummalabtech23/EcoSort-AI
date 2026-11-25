@@ -1,0 +1,6 @@
+streamlit>=1.40
+google-genai>=1.0
+pillow
+numpy
+scikit-learn
+gTTS

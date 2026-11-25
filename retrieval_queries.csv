@@ -1,0 +1,34 @@
+# query (built like pipeline.advise: name material condition category) ; keyword that MUST appear in a correct retrieved rule
+query,expected_keyword
+greasy pizza box cardboard food-soiled dry,oily
+AA battery battery used domestic hazardous,tape the terminals
+chips packet plastic wrapper dry,Multi-layered
+broken glass glass broken dry,SHARP - BROKEN GLASS
+banana peel organic fresh wet,peels
+CFL bulb glass intact domestic hazardous,mercury
+expired medicine strip tablets domestic hazardous,take-back
+used syringe needle plastic sharp domestic hazardous,sharps
+mobile phone charger electronics e waste,authorised e-waste collection
+laptop battery swollen lithium e waste,Lithium-ion
+old t-shirt cotton cloth worn dry,Worn-out textiles
+PET bottle plastic clean dry,PET
+newspaper paper clean dry,newspaper
+aerosol can metal spray can dry,Aerosol
+sanitary pad used wrapped sanitary,securely wrapped
+diaper used sanitary,diapers
+tea bags coffee grounds organic wet,coffee grounds
+eggshell organic wet,eggshells
+thermocol packaging foam dry,Thermocol
+paint can domestic hazardous,paint
+tube light long glass domestic hazardous,tube lights
+paper cup tetra pack lining dry,Paper cups
+aluminium foil clean metal dry,aluminium foil
+tiles bricks debris construction waste,Construction
+mixed dry waste batch food contamination audit,contaminants
+leather shoes footwear rubber dry,Rubber items
+cooked rice leftover food wet,cooked food
+blade knife sharp metal dry,Sharp metal
+coconut shell garden leaves wet,Coconut shells
+remote control earphones cable e waste,earphones
+glass jar bottle clean dry,Glass bottles and jars
+pesticide bottle domestic hazardous,pesticide
